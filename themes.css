@@ -1,0 +1,29 @@
+/* themes.css */
+
+:root {
+  /* Light theme variables */
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --sidebar-bg: #f0f0f0;
+  --chat-bg: #e0e0e0;
+  --input-bg: #ffffff;
+  --button-bg: #d0d0d0;
+  --bubble-user-bg: #0072ff;
+  --bubble-user-text: #ffffff;
+  --bubble-assistant-bg: #4a00e0;
+  --bubble-assistant-text: #ffffff;
+}
+
+[data-theme='dark'] {
+  /* Dark theme variables */
+  --bg-color: #1e1e1e;
+  --text-color: #ffffff;
+  --sidebar-bg: #2e2e2e;
+  --chat-bg: #3e3e3e;
+  --input-bg: #2e2e2e;
+  --button-bg: #4e4e4e;
+  --bubble-user-bg: #00c6ff;
+  --bubble-user-text: #000000;
+  --bubble-assistant-bg: #8e2de2;
+  --bubble-assistant-text: #ffffff;
+}
